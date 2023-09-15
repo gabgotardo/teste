@@ -1,0 +1,35 @@
+module.exports = {
+  rules: {
+    "body-leading-blank": ["error", "always"],
+    "footer-leading-blank": ["error", "always"],
+    "header-max-length": ["error", { header: 100 }],
+    "scope-case": ["error", "lower-case"],
+    "subject-case": [
+      "error",
+      "never",
+      ["sentence-case", "start-case", "pascal-case", "upper-case"],
+    ],
+    "subject-empty": ["error", "never"],
+    "subject-full-stop": ["error", "never", "."],
+    "type-case": ["error", "lower-case"],
+    "type-empty": ["error", "never"],
+    "type-enum": [
+      "error",
+      [
+        "build",
+        "chore",
+        "ci",
+        "docs",
+        "feat",
+        "fix",
+        "perf",
+        "refactor",
+        "revert",
+        "style",
+        "test",
+        "type",
+        "deps",
+      ],
+    ],
+  },
+};

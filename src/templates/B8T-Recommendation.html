@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common"
+  xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="pt-br">
+
+<head>
+  <title>Colgate Recomendação</title>
+
+  <vtex:metatags />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <link rel="shortcut icon" href="/arquivos/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <div id="recommendation">
+  </div>
+
+  <div id="vtex-components" style="display: none">
+    <div class="main-banner-desktop">
+      <vtex:contentPlaceHolder id="banner desktop" />
+    </div>
+
+    <div class="main-banner-mobile">
+      <vtex:contentPlaceHolder id="banner mobile" />
+    </div>
+
+    <div class="recommendation-steps">
+      <vtex:contentPlaceHolder id="steps" />
+    </div>
+
+    <div class="banners-list">
+      <vtex:contentPlaceHolder id="Lista de banner" />
+    </div>
+
+    <div class="brand-content">
+      <vtex:contentPlaceHolder id="Sessão Marca" />
+    </div>
+
+    <div class="top-search">
+      <vtex:contentPlaceHolder id="Top 10 mais buscados" />
+    </div>
+  </div>
+
+  <vtex:template id="B8T-Footer--new" />
+  <vtex:template id="B8T-store-scripts" />
+  <script src="/arquivos/B8T-store-recommendation.js"></script>
+</body>
+
+</html>
